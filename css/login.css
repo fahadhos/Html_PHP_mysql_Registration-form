@@ -1,0 +1,214 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    
+}
+
+body { 
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../images/bg1.jpg');
+      background-color: #4ca1af;
+    /* background-position: center; */
+    background-size:cover;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center;  */
+}
+ .card #paricles-js{
+    width: 100%;
+  height: 100%;
+  background-color: #b61924;
+background-size: auto;
+  /* background-size: cover; */
+  background-position: 50% 50%;
+  background-repeat: no-repeat; 
+}
+
+.Container { 
+   margin-top: -700px;
+   margin-left: 500px;  /* margin-top: 1px; */
+    width: 500px;
+    min-height: 400px;
+    /* height: 700px; */
+    background:#17dab7;
+     /* #17dab7; */
+    opacity: 99%;
+    border-radius: 5px;
+    box-shadow: 1px 0 40px #17dab7;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+   
+}
+
+/* .boxx { 
+    width: 500%;
+    /* min-height: 400px; */
+    /* height: 60%;
+    background: #17dab7;
+    opacity: 99%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+   left: -10%;
+   right: 30%;
+    display: inline-block;
+}  */
+
+.Container .login-text {
+  color: rgb(238, 255, 0);
+  font-weight: 500;
+  /* font-size: 1.1rem; */
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: capitalize;
+}
+
+ /* select{
+     color:white;
+  
+ }
+ option{
+       background-color: turquoise; 
+ } */
+ ::placeholder {
+  color: white;
+  font-size: 14px;
+  opacity: 1; 
+}
+ .Container .input-group  input   {
+    width: 100%;
+    height: 100%;
+    color:whitesmoke;
+    border: 2px solid #f5efef;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.input{
+    color: whitesmoke;
+}
+.Container .input-group  {
+    
+    height: 50px;
+    margin-bottom: 25px;
+    
+    width: 200px;
+     display: inline-block;  
+    text-align: right; 
+}
+ .Container .input-group    select    {
+    width: 100%;
+    height: 100%;
+     
+    border: 2px solid #f5efef;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+
+
+   /* border: 2px solid #ece5e5;color: white; */
+}
+ /* for designing option bar */
+ /* .Container .input-group   select 
+ { 
+      width: 120px;
+       height: 30px;
+    border: 2px solid #999;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 30px; 
+    transition: .3s;
+     padding: 15px 20px;
+     background: #17dab7; 
+     /* color: #1c87c9; }   */
+  
+ 
+ 
+
+ 
+  /* textfield border color */
+.Container .input-group  input:focus ,   .Container  .input-group input:valid  {
+    /* border-color: #a29bfe; */
+    border-color: #00ffb3; 
+
+}
+ .input label input{
+  
+    color:royalblue;
+} 
+.Container .input-group select
+{
+    color: whitesmoke;
+  
+}
+.Container .input-group option
+{
+    background-color: turquoise;
+  
+}
+ /* for option  */
+ .Container .input-group   select:focus   {
+    border-color:  #00ffb3;
+}
+ .input label select{
+  
+    color: #00ffb3;
+} 
+ 
+
+ /* for button */
+.Container   .input-group .btn {
+    display: block;
+    width: 100%;
+    /* left:50%; */
+   margin-left: 110px;
+    top:40%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #14df35;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Container  .input-group   .btn:hover {
+    transform: translateY(-5px);
+    background: #2ddbd3;
+}
+
+.login-register-text {
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #6c5ce7;
+}
+
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+    
+}
